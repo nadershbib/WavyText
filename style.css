@@ -1,0 +1,177 @@
+body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23381c27' fill-opacity='0.63'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 100px;
+    /* background-color: aqua; */
+    color: rgb(230, 221, 236);
+    font-family: 'Caveat', cursive;
+    letter-spacing: 15px;
+    text-shadow: -3px -3px 5px rgb(8, 151, 132), 3px 3px 5px rgb(168, 7, 173);
+    animation-name: shadow;
+    animation-duration:0.5s ;
+    animation-iteration-count: infinite;
+}
+span:nth-child(1){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+
+
+    /* animation-name: delay; */
+    
+    
+
+
+}
+
+span:nth-child(2){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+
+span:nth-child(3){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.25s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+span:nth-child(4){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.35s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+span:nth-child(5){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.45s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+
+span:nth-child(7){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.55s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+
+span:nth-child(8){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.65s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+
+span:nth-child(9){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+
+span:nth-child(10){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.85s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+
+span:nth-child(11){
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-delay: 0.95s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+
+}
+
+@keyframes wave{
+    from{transform: translateY(0);}
+    10%{
+        color: rgb(136, 17, 248);
+    }
+    20%{
+        color: rgb(29, 228, 235);
+    }
+    30%{
+        color: rgb(6, 6, 201);
+    }
+    40%{
+        color: rgb(236, 3, 3);
+    }
+    50%{
+         text-shadow:10px 20px 30px green, -10px -20px 30px red;
+    }
+    60%{
+        color: rgb(17, 212, 180);
+    }
+    70%{
+        color: rgb(100, 231, 24);
+    }
+    80%{
+        color: rgb(176, 214, 6);
+    }
+    99%{
+        color: rgb(248, 50, 0);
+    }
+    to{transform :translateY(-160px);}
+                  
+}
